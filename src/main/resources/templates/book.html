@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>AirLines | Book</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.5.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Cabin_400.font.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
+<script type="text/javascript" src="js/jquery.jqtransform.js" ></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/atooltip.jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">.main, .tabs ul.nav a, .content, .button1, .box1, .top { behavior:url("../js/PIE.htc")}</style>
+<![endif]-->
+</head>
+<body id="page3">
+<div class="main">
+  <!--header -->
+  <header>
+    <div class="wrapper">
+      <h1><a href="index.html" id="logo">AirLines</a></h1>
+      <span id="slogan">Fast, Frequent &amp; Safe Flights</span>
+      <nav id="top_nav">
+        <ul>
+          <li><a href="index.html" class="nav1">Inicio</a></li>
+          <li><a href="#" class="nav2">Log out</a></li>
+          <li><a href="contacts.html" class="nav3">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html"><span><span>Inicio</span></span></a></li>
+        <li id="menu_active"><a href="book.html"><span><span>Reservacion</span></span></a></li>
+        <li class="end"><a href="contacts.html"><span><span>Contacto</span></span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- / header -->
+  <!--content -->
+  <section id="content">
+    <div class="wrapper pad1">
+      <article >
+        <div class="tabs2">
+          <ul class="nav">
+            <li class="selected"><a href="#Flight">Reservación</a></li>
+          </ul>
+	  
+          <div class="content">
+            <div class="tab-content" id="Flight">
+              <form id="form_5" action="#" class="form_5" method="post">
+                <div>
+                  
+                  <div class="pad">
+                    <div class="">
+                      <div class="radio col2">
+                        <div class="select1"><span class="left">Origen</span>
+                          <select>
+                            <option>Toronto - Canada</option>
+                            <option>Seattle - Estados Unidos</option>
+                            <option>Puebla  - Mexico</option>
+                            <option>Tokio  - Japon</option>
+                          </select>
+                          <a href="#" class="help"></a> </div><br><br>
+                        <div class="select1"><span class="left">Destino</span>
+                          <select>
+                            <option>Toronto - Canada</option>
+                            <option>Seattle - Estados Unidos</option>
+                            <option>Puebla  - Mexico</option>
+                            <option>Tokio  - Japon</option>
+                          </select>
+                          <a href="#" class="help"></a> </div>
+                      </div>
+
+                      <div class="check_box">
+                        <div class="calendar">
+                        <span class="badge badge-primary">Salida</span><br>
+                        <input type="date" class="datepicker">
+                      </div>
+                      <div class="calendar">
+                        <span class="badge badge-primary">Regreso</span><br>
+                        <input type="date" class="datepicker">
+                      </div>
+                    </div>
+                    <div class="wrapper"> <span class="left"></span>
+                      <div class="col5">
+                        <h6>CODIGO RESERVACION</h6>
+                        <div class="row">                      
+                        </div>
+                        <div class="container" style="position: relative; display: inline-block; background-image: url(images/avion-economyplus-esp-V3.png); width: 740px; margin: 0.1%; height: 350px;" >
+                          <div style="position:relative;">
+                            <input type="radio" style="position:absolute; top:97.7px; left:7.5%; display: block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:7.5%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:7.5%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:7.5%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:7.5%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:7.5%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:11%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:11%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:11%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:11%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:11%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:11%; display: inline-block;"name="asiento" value="7A">
+                            
+                            <input type="radio" style="position:absolute; top:97.7px; left:14.5%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:14.5%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:14.5%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:14.5%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:14.5%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:14.5%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:17.7%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:17.7%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:17.7%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:17.7%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:17.7%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:17.7%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:21%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:21%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:21%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:21%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:21%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:21%; display: inline-block;"name="asiento" value="7A">
+                            
+                            <input type="radio" style="position:absolute; top:97.7px; left:24.5%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:24.5%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:24.5%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:24.5%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:24.5%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:24.5%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:27.8%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:27.8%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:27.8%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:27.8%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:27.8%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:27.8%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:31.2%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:31.2%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:31.2%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:31.2%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:31.2%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:31.2%; display: inline-block;"name="asiento" value="7A">
+                            
+                            <input type="radio" style="position:absolute; top:97.7px; left:34.5%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:34.5%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:34.5%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:34.5%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:34.5%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:34.5%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:38%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:38%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:38%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:38%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:38%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:38%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:41.3%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:41.3%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:41.3%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:41.3%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:41.3%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:41.3%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:44.8%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:44.8%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:44.8%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:44.8%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:44.8%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:44.8%; display: inline-block;"name="asiento" value="7A">
+                            
+                            <input type="radio" style="position:absolute; top:97.7px; left:48.2%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:48.2%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:48.2%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:48.2%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:48.2%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:48.2%; display: inline-block;"name="asiento" value="7A">
+
+                            
+                            <input type="radio" style="position:absolute; top:97.7px; left:56.7%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:56.7%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:56.7%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:56.7%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:56.7%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:56.7%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97px; left:60.2%; display: inline-block;;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:60.2%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:60.2%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:60.2%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:60.2%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:60.2%; display: inline-block;"name="asiento" value="7A">
+                            
+                            <input type="radio" style="position:absolute; top:97.7px; left:63.7%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:63.7%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:63.7%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:63.7%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:63.7%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:63.7%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:67.3%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:67.3%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:67.3%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:67.3%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:67.3%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:67.3%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:70.8%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:70.8%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:70.8%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:70.8%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:70.8%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:70.8%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:74%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:74%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:74%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:74%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:74%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:74%; display: inline-block;"name="asiento" value="7A">
+                            
+                            <input type="radio" style="position:absolute; top:97.7px; left:77.5%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:77.5%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:77.5%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:77.5%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:77.5%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:77.5%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:81%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:81%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:81%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:81%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:81%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:81%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:84.3%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:84.3%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:84.3%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:84.3%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:84.3%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:84.3%; display: inline-block;"name="asiento" value="7A">
+                            
+                            <input type="radio" style="position:absolute; top:97.7px; left:87.6%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:87.6%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:87.6%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:87.6%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:87.6%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:87.6%; display: inline-block;"name="asiento" value="7A">
+
+                            <input type="radio" style="position:absolute; top:97.7px; left:91%; display: inline-block;" name="asiento" value="7F">
+                            <input type="radio" style="position:absolute; top:123.5px; left:91%; display: inline-block;" name="asiento" value="7E">
+                            <input type="radio" style="position:absolute; top:148px; left:91%; display: inline-block;" name="asiento" value="7D">
+
+                            <input type="radio" style="position:absolute; top:190px; left:91%; display: inline-block;" name="asiento" value="7C">
+                            <input type="radio" style="position:absolute; top:215px; left:91%; display: inline-block;"name="asiento" value="7B">
+                            <input type="radio" style="position:absolute; top:240px; left:91%; display: inline-block;"name="asiento" value="7A">
+
+                          </div>
+                          </div>
+                          
+                        </div>
+                          
+                          
+                        </div> 
+                          
+                        </div><span class="right relative"><a href="#" class="button1"><strong>GUARDAR</strong></a></span>
+                        </div>
+                       </div>
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+			
+              </form>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!--content end-->
+  <!--footer -->
+  <footer>
+    <div class="wrapper">
+      <ul id="icons">
+        <li><a class="normaltip"><img src="images/icon1.jpg" alt=""></a></li>
+        <li><a class="normaltip"><img src="images/icon2.jpg" alt=""></a></li>
+        <li><a class="normaltip"><img src="images/icon3.jpg" alt=""></a></li>
+        <li><a class="normaltip"><img src="images/icon4.jpg" alt=""></a></li>
+        <li><a class="normaltip"><img src="images/icon5.jpg" alt=""></a></li>
+        <li><a class="normaltip"><img src="images/icon6.jpg" alt=""></a></li>
+      </ul>
+      <div class="links">Copyright &copy; <a href="#">CIELO</a> Derechos Reservadors<br>
+        Desarrollado por: <a target="_blank">Microservicios</a></div>
+    </div>
+  </footer>
+  <!--footer end-->
+</div>
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+jQuery(document).ready(function ($) {
+    $('.form_5').jqTransform({
+        imgPath: 'jqtransformplugin/img/'
+    });
+});
+$(document).ready(function () {
+    tabs2.init();
+});
+</script>
+</body>
+</html>

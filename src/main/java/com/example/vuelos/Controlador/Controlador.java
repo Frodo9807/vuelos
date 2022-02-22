@@ -24,10 +24,15 @@ public class Controlador {
     public String listar(Model model){
         List<Vuelos> vuelos = service.listar();
         model.addAttribute("vuelos", vuelos);
-        return "index";
+        return "lista";
+    }
+    @GetMapping("/book")
+    public String listar(){
+        
+        return "book";
     }
 
-    @GetMapping("/new")
+    @GetMapping("/formulario")
     public String agregar(Model modelo){
         modelo.addAttribute ("vuelos", new Vuelos());
         return "formulario";
@@ -36,7 +41,7 @@ public class Controlador {
     @PostMapping("/save")
     public String save (@Validated Vuelos vuelos, Model model){
         service.save(vuelos);
-        return "redirect:/listar";
+        return "listar";
     }
 
     @GetMapping("/editar/{id}")
@@ -49,6 +54,6 @@ public class Controlador {
     @GetMapping("/eliminar/{id}")
     public String delete(Vuelos vuelos){
         service.delete(vuelos);
-        return "redirect:/listar";
+        return "listar";
     }
 }
