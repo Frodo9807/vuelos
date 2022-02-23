@@ -26,11 +26,7 @@ public class Controlador {
         model.addAttribute("vuelos", vuelos);
         return "lista";
     }
-    @GetMapping("/book")
-    public String listar(){
-        
-        return "book";
-    }
+    
 
     @GetMapping("/formulario")
     public String agregar(Model modelo){
